@@ -1,0 +1,37 @@
+/* font-url */
+$font-url: "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Federo&display=swap";
+
+/* font-family */
+$font-family: (
+  ff: (
+    heading: "'Federo', sans-serif",
+    body: "'DM Sans', sans-serif",
+  ),
+);
+
+/* font-scale */
+$font-scale: (
+  fw: (
+    light: 300,
+    normal: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+    ebold: 800,
+    black: 900,
+  ),
+);
+
+/* font-szie */
+$font-size: (
+  fz: (
+    h1: 6.875rem,
+    h2: 3.75rem,
+    h3: 1.875rem,
+    h4: 10,
+    h5: 10,
+    h6: 10,
+    p: 1.0625rem,
+    body: 1.0625rem,
+  ),
+);
