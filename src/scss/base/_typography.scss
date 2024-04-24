@@ -1,15 +1,16 @@
-/* font-url */
+//font-url
 $font-url: "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Federo&display=swap";
 
-/* font-family */
+//font-family
 $font-family: (
   ff: (
     heading: "'Federo', sans-serif",
     body: "'DM Sans', sans-serif",
+    icon-font: "'Font Awesome 6 Pro'",
   ),
 );
 
-/* font-scale */
+//font-scale
 $font-scale: (
   fw: (
     light: 300,
@@ -22,7 +23,7 @@ $font-scale: (
   ),
 );
 
-/* font-szie */
+//font-szie
 $font-size: (
   fz: (
     h1: 6.875rem,

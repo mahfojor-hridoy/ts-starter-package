@@ -1,32 +1,35 @@
-/*========= colors variable =========*/
-/*--- theme-color ---*/
+/*------- theme-prefix --------*/
+$theme-prefix: "ts";
+
+/*------- theme-color-declaration --------*/
+//theme-color
 $theme-darken: #0a0e1a;
 $theme-lighten: #ffffff;
 $theme-primary: #0057fc;
 $theme-secondary: #ffe815;
 $theme-tertiary: #ff3838;
 $theme-accent: #ffd06c;
-/*--- theme-heading-color ---*/
+//theme-heading-color
 $theme-heading-darken: #0a0e1a;
 $theme-heading-lighten: #ffffff;
-/*--- theme-paragraph-color ---*/
+//theme-paragraph-color
 $theme-paragraph-darken: #57595c;
 $theme-paragraph-lighten: #b1b4ba;
-/*--- theme-button-color ---*/
+//theme-button-color
 $theme-button-primary: #0057fc;
 $theme-button-primary-hover: #71a2ff;
 $theme-button-secondary: #ffe815;
 $theme-button-secondary-hover: #e5cf00;
 $theme-button-tertiary: #ff3838;
-/*--- theme-border-color ---*/
+//theme-border-color
 $theme-border: #57595c;
-/*--- theme-common-color ---*/
+//theme-common-color
 $theme-common-darken: #000000;
 $theme-common-lighten: #ffffff;
 
-/*========= colors declare =========*/
+//colors declare
 $colors: (
-  ts-theme: (
+  theme: (
     lighten: $theme-lighten,
     darken: $theme-darken,
     primary: $theme-primary,
@@ -34,25 +37,25 @@ $colors: (
     tertiary: $theme-tertiary,
     accent: $theme-accent,
   ),
-  ts-heading: (
-    darken: $theme-heading-dark,
+  heading: (
+    darken: $theme-heading-darken,
     lighten: $theme-heading-lighten,
   ),
-  ts-paragraph: (
+  paragraph: (
     darken: $theme-paragraph-darken,
     lighten: $theme-paragraph-lighten,
   ),
-  ts-button: (
+  button: (
     primary: $theme-button-primary,
     primary-hover: $theme-button-primary-hover,
     secondary: $theme-button-secondary,
     secondary-hover: $theme-button-secondary-hover,
     tertiary: $theme-button-tertiary,
   ),
-  ts-border: (
+  border: (
     color: $theme-border,
   ),
-  ts-common: (
+  common: (
     darken: $theme-common-darken,
     lighten: $theme-common-lighten,
   ),
