@@ -1,1 +1,14 @@
+/*======== theme ========*/
 @forward "./components/theme";
+/*======== spacing ========*/
+@forward "./spacing";
+/*======== layout ========*/
+@forward "./layout";
+/*======== components ========*/
+@forward "./components/";
+/*======== header ========*/
+@forward "./template/header/header";
+/*======== footer ========*/
+@forward "./template/footer/footer";
+/*======== secton ========*/
+@forward "./template/section";

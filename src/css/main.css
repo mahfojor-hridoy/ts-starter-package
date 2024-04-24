@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*======== theme ========*/
 /*-----------------------------------------------------------------------------------
 
     Theme Name: Template Name – HTML5 Template
@@ -19,8 +20,6 @@
 /*  01. THEME DEFAULT CSS START
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Federo&display=swap");
-/*------- theme-prefix --------*/
-/*------- theme-color-declaration --------*/
 :root {
   /*------- color declaration---------*/
   --ts-theme-lighten: #ffffff;
@@ -44,7 +43,7 @@
   /*------- font-family declaration---------*/
   --ts-ff-heading: 'Federo', sans-serif;
   --ts-ff-body: 'DM Sans', sans-serif;
-  --ts-ff-icon-font: 'Font Awesome 6 Pro';
+  --ts-ff-icon-font: "Font Awesome 6 Pro";
   /*------- font-scale declaration---------*/
   --ts-fw-light: 300;
   --ts-fw-normal: 400;
@@ -174,5 +173,545 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+
+/*======== spacing ========*/
+/*---- margin left and right ----*/
+.mx-5 {
+  margin-left: 0.3125rem;
+  margin-right: 0.3125rem;
+}
+
+.mx-10 {
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+.mx-15 {
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+}
+
+.mx-20 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mx-25 {
+  margin-left: 1.5625rem;
+  margin-right: 1.5625rem;
+}
+
+.mx-30 {
+  margin-left: 1.875rem;
+  margin-right: 1.875rem;
+}
+
+.mx-35 {
+  margin-left: 2.1875rem;
+  margin-right: 2.1875rem;
+}
+
+.mx-40 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-45 {
+  margin-left: 2.8125rem;
+  margin-right: 2.8125rem;
+}
+
+.mx-50 {
+  margin-left: 3.125rem;
+  margin-right: 3.125rem;
+}
+
+/*---- margin top and bottom ----*/
+.my-5 {
+  margin-top: 0.3125rem;
+  margin-bottom: 0.3125rem;
+}
+
+.my-10 {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.my-15 {
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem;
+}
+
+.my-20 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-25 {
+  margin-top: 1.5625rem;
+  margin-bottom: 1.5625rem;
+}
+
+.my-30 {
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.my-35 {
+  margin-top: 2.1875rem;
+  margin-bottom: 2.1875rem;
+}
+
+.my-40 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-45 {
+  margin-top: 2.8125rem;
+  margin-bottom: 2.8125rem;
+}
+
+.my-50 {
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+
+/*---- margin top ----*/
+.mt-5 {
+  margin-top: 0.3125rem;
+}
+
+.mt-10 {
+  margin-top: 0.625rem;
+}
+
+.mt-15 {
+  margin-top: 0.9375rem;
+}
+
+.mt-20 {
+  margin-top: 1.25rem;
+}
+
+.mt-25 {
+  margin-top: 1.5625rem;
+}
+
+.mt-30 {
+  margin-top: 1.875rem;
+}
+
+.mt-35 {
+  margin-top: 2.1875rem;
+}
+
+.mt-40 {
+  margin-top: 2.5rem;
+}
+
+.mt-45 {
+  margin-top: 2.8125rem;
+}
+
+.mt-50 {
+  margin-top: 3.125rem;
+}
+
+/*---- margin left ----*/
+.ml-5 {
+  margin-left: 0.3125rem;
+}
+
+.ml-10 {
+  margin-left: 0.625rem;
+}
+
+.ml-15 {
+  margin-left: 0.9375rem;
+}
+
+.ml-20 {
+  margin-left: 1.25rem;
+}
+
+.ml-25 {
+  margin-left: 1.5625rem;
+}
+
+.ml-30 {
+  margin-left: 1.875rem;
+}
+
+.ml-35 {
+  margin-left: 2.1875rem;
+}
+
+.ml-40 {
+  margin-left: 2.5rem;
+}
+
+.ml-45 {
+  margin-left: 2.8125rem;
+}
+
+.ml-50 {
+  margin-left: 3.125rem;
+}
+
+/*---- margin right ----*/
+.mr-5 {
+  margin-right: 0.3125rem;
+}
+
+.mr-10 {
+  margin-right: 0.625rem;
+}
+
+.mr-15 {
+  margin-right: 0.9375rem;
+}
+
+.mr-20 {
+  margin-right: 1.25rem;
+}
+
+.mr-25 {
+  margin-right: 1.5625rem;
+}
+
+.mr-30 {
+  margin-right: 1.875rem;
+}
+
+.mr-35 {
+  margin-right: 2.1875rem;
+}
+
+.mr-40 {
+  margin-right: 2.5rem;
+}
+
+.mr-45 {
+  margin-right: 2.8125rem;
+}
+
+.mr-50 {
+  margin-right: 3.125rem;
+}
+
+/*---- margin bottom ----*/
+.mb-5 {
+  margin-bottom: 0.3125rem;
+}
+
+.mb-10 {
+  margin-bottom: 0.625rem;
+}
+
+.mb-15 {
+  margin-bottom: 0.9375rem;
+}
+
+.mb-20 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-25 {
+  margin-bottom: 1.5625rem;
+}
+
+.mb-30 {
+  margin-bottom: 1.875rem;
+}
+
+.mb-35 {
+  margin-bottom: 2.1875rem;
+}
+
+.mb-40 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-45 {
+  margin-bottom: 2.8125rem;
+}
+
+.mb-50 {
+  margin-bottom: 3.125rem;
+}
+
+/*---- padding left and right ----*/
+.px-5 {
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+}
+
+.px-10 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.px-15 {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.px-20 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-25 {
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+}
+
+.px-30 {
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+}
+
+.px-35 {
+  padding-left: 2.1875rem;
+  padding-right: 2.1875rem;
+}
+
+.px-40 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-45 {
+  padding-left: 2.8125rem;
+  padding-right: 2.8125rem;
+}
+
+.px-50 {
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
+}
+
+/*---- padding top and bottom ----*/
+.py-5 {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+}
+
+.py-10 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.py-15 {
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+}
+
+.py-20 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-25 {
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5625rem;
+}
+
+.py-30 {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+}
+
+.py-35 {
+  padding-top: 2.1875rem;
+  padding-bottom: 2.1875rem;
+}
+
+.py-40 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-45 {
+  padding-top: 2.8125rem;
+  padding-bottom: 2.8125rem;
+}
+
+.py-50 {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+/*---- padding top ----*/
+.pt-5 {
+  padding-top: 0.3125rem;
+}
+
+.pt-10 {
+  padding-top: 0.625rem;
+}
+
+.pt-15 {
+  padding-top: 0.9375rem;
+}
+
+.pt-20 {
+  padding-top: 1.25rem;
+}
+
+.pt-25 {
+  padding-top: 1.5625rem;
+}
+
+.pt-30 {
+  padding-top: 1.875rem;
+}
+
+.pt-35 {
+  padding-top: 2.1875rem;
+}
+
+.pt-40 {
+  padding-top: 2.5rem;
+}
+
+.pt-45 {
+  padding-top: 2.8125rem;
+}
+
+.pt-50 {
+  padding-top: 3.125rem;
+}
+
+/*---- padding left ----*/
+.pl-5 {
+  padding-left: 0.3125rem;
+}
+
+.pl-10 {
+  padding-left: 0.625rem;
+}
+
+.pl-15 {
+  padding-left: 0.9375rem;
+}
+
+.pl-20 {
+  padding-left: 1.25rem;
+}
+
+.pl-25 {
+  padding-left: 1.5625rem;
+}
+
+.pl-30 {
+  padding-left: 1.875rem;
+}
+
+.pl-35 {
+  padding-left: 2.1875rem;
+}
+
+.pl-40 {
+  padding-left: 2.5rem;
+}
+
+.pl-45 {
+  padding-left: 2.8125rem;
+}
+
+.pl-50 {
+  padding-left: 3.125rem;
+}
+
+/*---- padding right ----*/
+.pr-5 {
+  padding-right: 0.3125rem;
+}
+
+.pr-10 {
+  padding-right: 0.625rem;
+}
+
+.pr-15 {
+  padding-right: 0.9375rem;
+}
+
+.pr-20 {
+  padding-right: 1.25rem;
+}
+
+.pr-25 {
+  padding-right: 1.5625rem;
+}
+
+.pr-30 {
+  padding-right: 1.875rem;
+}
+
+.pr-35 {
+  padding-right: 2.1875rem;
+}
+
+.pr-40 {
+  padding-right: 2.5rem;
+}
+
+.pr-45 {
+  padding-right: 2.8125rem;
+}
+
+.pr-50 {
+  padding-right: 3.125rem;
+}
+
+/*---- padding bottom ----*/
+.pb-5 {
+  padding-bottom: 0.3125rem;
+}
+
+.pb-10 {
+  padding-bottom: 0.625rem;
+}
+
+.pb-15 {
+  padding-bottom: 0.9375rem;
+}
+
+.pb-20 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-25 {
+  padding-bottom: 1.5625rem;
+}
+
+.pb-30 {
+  padding-bottom: 1.875rem;
+}
+
+.pb-35 {
+  padding-bottom: 2.1875rem;
+}
+
+.pb-40 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-45 {
+  padding-bottom: 2.8125rem;
+}
+
+.pb-50 {
+  padding-bottom: 3.125rem;
+}
+
+/*======== layout ========*/
+/*======== components ========*/
+/*======== theme ========*/
+/*======== header ========*/
+/*======== footer ========*/
+/*======== secton ========*/
 
 /*# sourceMappingURL=main.css.map */

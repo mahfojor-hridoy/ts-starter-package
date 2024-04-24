@@ -1,0 +1,40 @@
+@use "../base" as *;
+
+/*---- margin left and right ----*/
+@for $i from 1 through $space-count {
+  .mx-#{$i * 5} {
+    margin-left: calc($i * 0.3125rem);
+    margin-right: calc($i * 0.3125rem);
+  }
+}
+/*---- margin top and bottom ----*/
+@for $i from 1 through $space-count {
+  .my-#{$i * 5} {
+    margin-top: calc($i * 0.3125rem);
+    margin-bottom: calc($i * 0.3125rem);
+  }
+}
+/*---- margin top ----*/
+@for $i from 1 through $space-count {
+  .mt-#{$i * 5} {
+    margin-top: calc($i * 0.3125rem);
+  }
+}
+/*---- margin left ----*/
+@for $i from 1 through $space-count {
+  .ml-#{$i * 5} {
+    margin-left: calc($i * 0.3125rem);
+  }
+}
+/*---- margin right ----*/
+@for $i from 1 through $space-count {
+  .mr-#{$i * 5} {
+    margin-right: calc($i * 0.3125rem);
+  }
+}
+/*---- margin bottom ----*/
+@for $i from 1 through $space-count {
+  .mb-#{$i * 5} {
+    margin-bottom: calc($i * 0.3125rem);
+  }
+}

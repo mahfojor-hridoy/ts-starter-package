@@ -15,15 +15,16 @@
     }
   }
   /*------- font-scale declaration---------*/
-  @each $ff, $shades in $font-scale {
+  @each $fw, $shades in $font-scale {
     @each $shade, $value in $shades {
-      --#{$theme-prefix}-#{$ff}-#{$shade}: #{$value};
+      --#{$theme-prefix}-#{$fw}-#{$shade}: #{$value};
     }
   }
+
   /*------- font-fize declaration---------*/
-  @each $ff, $shades in $font-size {
+  @each $fz, $shades in $font-size {
     @each $shade, $value in $shades {
-      --#{$theme-prefix}-#{$ff}-#{$shade}: #{$value};
+      --#{$theme-prefix}-#{$fz}-#{$shade}: #{$value};
     }
   }
 }

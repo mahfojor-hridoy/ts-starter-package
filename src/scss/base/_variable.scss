@@ -1,7 +1,4 @@
-/*------- theme-prefix --------*/
-$theme-prefix: "ts";
-
-/*------- theme-color-declaration --------*/
+//===========theme-color-declaration
 //theme-color
 $theme-darken: #0a0e1a;
 $theme-lighten: #ffffff;
@@ -60,3 +57,9 @@ $colors: (
     lighten: $theme-common-lighten,
   ),
 );
+
+//theme-prefix
+$theme-prefix: "ts";
+
+//space-count
+$space-count: 10;

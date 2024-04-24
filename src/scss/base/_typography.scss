@@ -6,20 +6,20 @@ $font-family: (
   ff: (
     heading: "'Federo', sans-serif",
     body: "'DM Sans', sans-serif",
-    icon-font: "'Font Awesome 6 Pro'",
+    icon-font: '"Font Awesome 6 Pro"',
   ),
 );
 
 //font-scale
 $font-scale: (
   fw: (
-    light: 300,
-    normal: 400,
-    medium: 500,
-    semibold: 600,
-    bold: 700,
-    ebold: 800,
-    black: 900,
+    "light": 300,
+    "normal": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700,
+    "ebold": 800,
+    "black": 900,
   ),
 );
 

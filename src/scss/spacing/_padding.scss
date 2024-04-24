@@ -1,0 +1,40 @@
+@use "../base" as *;
+
+/*---- padding left and right ----*/
+@for $i from 1 through $space-count {
+  .px-#{$i * 5} {
+    padding-left: calc($i * 0.3125rem);
+    padding-right: calc($i * 0.3125rem);
+  }
+}
+/*---- padding top and bottom ----*/
+@for $i from 1 through $space-count {
+  .py-#{$i * 5} {
+    padding-top: calc($i * 0.3125rem);
+    padding-bottom: calc($i * 0.3125rem);
+  }
+}
+/*---- padding top ----*/
+@for $i from 1 through $space-count {
+  .pt-#{$i * 5} {
+    padding-top: calc($i * 0.3125rem);
+  }
+}
+/*---- padding left ----*/
+@for $i from 1 through $space-count {
+  .pl-#{$i * 5} {
+    padding-left: calc($i * 0.3125rem);
+  }
+}
+/*---- padding right ----*/
+@for $i from 1 through $space-count {
+  .pr-#{$i * 5} {
+    padding-right: calc($i * 0.3125rem);
+  }
+}
+/*---- padding bottom ----*/
+@for $i from 1 through $space-count {
+  .pb-#{$i * 5} {
+    padding-bottom: calc($i * 0.3125rem);
+  }
+}
