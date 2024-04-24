@@ -66,7 +66,7 @@ body {
   font-family: var(--ts-ff-body);
   font-size: var(--ts-fz-body);
   font-weight: var(--ts-fw-normal);
-  color: var(--ts-paragraph-darken);
+  color: var(--ts-paragraph-dark);
   line-height: 1.7;
 }
 
@@ -87,7 +87,7 @@ h2,
 h3,
 h4 {
   font-family: var(--ts-ff-heading);
-  color: var(--ts-heading-darken);
+  color: var(--ts-heading-dark);
   text-wrap: balance;
   margin: 0;
   font-weight: var(--ts-fw-normal);

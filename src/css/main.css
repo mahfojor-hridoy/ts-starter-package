@@ -22,24 +22,24 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Federo&display=swap");
 :root {
   /*------- color declaration---------*/
-  --ts-theme-lighten: #ffffff;
-  --ts-theme-darken: #0a0e1a;
+  --ts-theme-light: #ffffff;
+  --ts-theme-dark: #0a0e1a;
   --ts-theme-primary: #0057fc;
   --ts-theme-secondary: #ffe815;
   --ts-theme-tertiary: #ff3838;
   --ts-theme-accent: #ffd06c;
-  --ts-heading-darken: #0a0e1a;
-  --ts-heading-lighten: #ffffff;
-  --ts-paragraph-darken: #57595c;
-  --ts-paragraph-lighten: #b1b4ba;
+  --ts-heading-dark: #0a0e1a;
+  --ts-heading-light: #ffffff;
+  --ts-paragraph-dark: #57595c;
+  --ts-paragraph-light: #b1b4ba;
   --ts-button-primary: #0057fc;
   --ts-button-primary-hover: #71a2ff;
   --ts-button-secondary: #ffe815;
   --ts-button-secondary-hover: #e5cf00;
   --ts-button-tertiary: #ff3838;
   --ts-border-color: #57595c;
-  --ts-common-darken: #000000;
-  --ts-common-lighten: #ffffff;
+  --ts-common-dark: #000000;
+  --ts-common-light: #ffffff;
   /*------- font-family declaration---------*/
   --ts-ff-heading: 'Federo', sans-serif;
   --ts-ff-body: 'DM Sans', sans-serif;
@@ -61,6 +61,7 @@
   --ts-fz-h6: 10;
   --ts-fz-p: 1.0625rem;
   --ts-fz-body: 1.0625rem;
+  --ts-fz-menu: 1.125rem;
 }
 
 /* Box sizing rules */
@@ -108,7 +109,7 @@ body {
   font-family: var(--ts-ff-body);
   font-size: var(--ts-fz-body);
   font-weight: var(--ts-fw-normal);
-  color: var(--ts-paragraph-darken);
+  color: var(--ts-paragraph-dark);
   line-height: 1.7;
 }
 
@@ -129,7 +130,7 @@ h2,
 h3,
 h4 {
   font-family: var(--ts-ff-heading);
-  color: var(--ts-heading-darken);
+  color: var(--ts-heading-dark);
   text-wrap: balance;
   margin: 0;
   font-weight: var(--ts-fw-normal);
@@ -711,6 +712,28 @@ textarea:not([rows]) {
 /*======== components ========*/
 /*======== theme ========*/
 /*======== header ========*/
+/*----- start header area ----*/
+.ts__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.ts__header--item {
+  display: inline-block;
+}
+.ts__header--item a {
+  display: block;
+  color: var(--ts-theme-light);
+  font-size: var(--ts-fz-menu);
+  font-family: var(--ts-ff-heading);
+}
+
+.hero {
+  background: var(--ts-theme-dark);
+  min-height: 600px;
+}
+
 /*======== footer ========*/
 /*======== secton ========*/
 

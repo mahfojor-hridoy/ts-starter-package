@@ -1,17 +1,17 @@
 //===========theme-color-declaration
 //theme-color
-$theme-darken: #0a0e1a;
-$theme-lighten: #ffffff;
+$theme-dark: #0a0e1a;
+$theme-light: #ffffff;
 $theme-primary: #0057fc;
 $theme-secondary: #ffe815;
 $theme-tertiary: #ff3838;
 $theme-accent: #ffd06c;
 //theme-heading-color
-$theme-heading-darken: #0a0e1a;
-$theme-heading-lighten: #ffffff;
+$theme-heading-dark: #0a0e1a;
+$theme-heading-light: #ffffff;
 //theme-paragraph-color
-$theme-paragraph-darken: #57595c;
-$theme-paragraph-lighten: #b1b4ba;
+$theme-paragraph-dark: #57595c;
+$theme-paragraph-light: #b1b4ba;
 //theme-button-color
 $theme-button-primary: #0057fc;
 $theme-button-primary-hover: #71a2ff;
@@ -21,26 +21,26 @@ $theme-button-tertiary: #ff3838;
 //theme-border-color
 $theme-border: #57595c;
 //theme-common-color
-$theme-common-darken: #000000;
-$theme-common-lighten: #ffffff;
+$theme-common-dark: #000000;
+$theme-common-light: #ffffff;
 
 //colors declare
 $colors: (
   theme: (
-    lighten: $theme-lighten,
-    darken: $theme-darken,
+    light: $theme-light,
+    dark: $theme-dark,
     primary: $theme-primary,
     secondary: $theme-secondary,
     tertiary: $theme-tertiary,
     accent: $theme-accent,
   ),
   heading: (
-    darken: $theme-heading-darken,
-    lighten: $theme-heading-lighten,
+    dark: $theme-heading-dark,
+    light: $theme-heading-light,
   ),
   paragraph: (
-    darken: $theme-paragraph-darken,
-    lighten: $theme-paragraph-lighten,
+    dark: $theme-paragraph-dark,
+    light: $theme-paragraph-light,
   ),
   button: (
     primary: $theme-button-primary,
@@ -53,8 +53,8 @@ $colors: (
     color: $theme-border,
   ),
   common: (
-    darken: $theme-common-darken,
-    lighten: $theme-common-lighten,
+    dark: $theme-common-dark,
+    light: $theme-common-light,
   ),
 );
 

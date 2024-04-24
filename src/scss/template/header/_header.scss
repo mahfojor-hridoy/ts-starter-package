@@ -1,0 +1,25 @@
+@use "../../base";
+
+/*----- start header area ----*/
+.ts__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  &--item {
+    display: inline-block;
+
+    a {
+      display: block;
+      color: var(--ts-theme-light);
+      font-size: var(--ts-fz-menu);
+      font-family: var(--ts-ff-heading);
+    }
+  }
+}
+
+.hero {
+  background: var(--ts-theme-dark);
+  min-height: 600px;
+}
