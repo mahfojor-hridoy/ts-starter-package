@@ -20,18 +20,27 @@
   </head>
   <body>
     <!-- start header area -->
-    <header class="ts__header">
-      <div class="container">
-        <div class="row">
+    <header class="ts__header transparent-header pl-100">
+      <div class="container-fluid p-0">
+        <div class="row gx-0 align-items-center">
           <div class="col-xl-2">
             <div class="ts__header--logo">
               <a href="#"><img src="./src/img/exdos.png" alt="exdos" /></a>
             </div>
           </div>
           <div class="col-xl-7">
-            <nav>
+            <nav class="pl-25">
               <ul class="ts__header--navbar">
-                <li class="ts__header--item"><a href="#">Home</a></li>
+                <li class="ts__header--item">
+                  <a href="#">Home</a>
+                  <ul class="dropdown">
+                    <li class="ts__header--item"><a href="#">Home-1</a></li>
+                    <li class="ts__header--item"><a href="#">Home-2</a></li>
+                    <li class="ts__header--item"><a href="#">Home-3</a></li>
+                    <li class="ts__header--item"><a href="#">Home-4</a></li>
+                    <li class="ts__header--item"><a href="#">Home-5</a></li>
+                  </ul>
+                </li>
                 <li class="ts__header--item"><a href="#">About Us</a></li>
                 <li class="ts__header--item"><a href="#">Service</a></li>
                 <li class="ts__header--item"><a href="#">Portfolio</a></li>
@@ -51,7 +60,7 @@
               <div class="ts__header--cta">
                 <a href="#">
                   <img src="./src/img/header-icon/phone-book.svg" alt="" />
-                  <div class="ts__header--content">
+                  <div class="info-content">
                     <span>Free Call</span>
                     <h4>02 (256) 256 025</h4>
                   </div>
